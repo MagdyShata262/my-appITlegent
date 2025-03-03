@@ -1,4 +1,15 @@
 {
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
-  "recommendations": ["angular.ng-template"]
+  "recommendations": [
+    "angular.ng-template",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-close-tag",
+    "editorconfig.editorconfig",
+    "mhutchie.git-graph",
+    "zignd.html-css-class-completion",
+    "johnpapa.angular2"
+  ]
 }

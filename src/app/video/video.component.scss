@@ -1,0 +1,289 @@
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+/* General button styling */
+
+
+/* Hover effect */
+@media (min-width: 320px) and (max-width: 359.98px) {}
+
+/////////////////////------------//////////////////////
+@media (min-width: 360px)and (max-width: 374.98px) {}
+
+/////////////////////------------//////////////////////
+
+/////////////////////------------//////////////////////
+@media (min-width: 375px)and (max-width: 413.98px) {}
+
+/////////////////////------------//////////////////////
+@media (min-width: 414px) and (max-width: 424.98px) {}
+
+/////////////////////------------//////////////////////
+
+
+@media(min-width: 425px)and (max-width: 429.98px) {}
+
+/////////////////////------------//////////////////////
+
+@media(min-width: 450px) and (max-width: 459.98px) {}
+
+/////////////////////------------//////////////////////
+
+@media(min-width: 460px) and (max-width: 499.98px) {}
+
+/////////////////////------------//////////////////////
+@media(min-width: 500px) and (max-width: 767.98px) {}
+
+/////////////////////------------//////////////////////
+
+
+
+@media (min-width: 768px)and (max-width: 1023.98px) {
+  .iframeheight {
+    height: 55% !important;
+    width: 64% !important;
+
+  }
+
+  * {
+    font-size: 11.5px !important;
+    line-height: 150%;
+  }
+
+
+
+
+  .position-1 {
+    top: 20%;
+    right: 35%;
+    z-index: 5 !important;
+  }
+
+  .position-2 {
+    position: fixed;
+    top: 44%;
+    left: 30%;
+    z-index: 200 !important;
+
+  }
+
+
+
+  .circle-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: #ff0000 1px solid;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    z-index: 100 !important;
+  }
+
+
+
+  .mtop {
+    margin-top: 500px;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+/////////////////////------------//////////////////////
+
+@media (min-width: 1024px)and (max-width: 1439.98px) {
+  .iframeheight {
+    height: 55% !important;
+    width: 64% !important;
+
+  }
+
+  * {
+    font-size: 11.5px !important;
+    line-height: 150%;
+  }
+
+
+
+
+  .position-1 {
+    top: 20%;
+    right: 35%;
+    z-index: 5 !important;
+  }
+
+  .position-2 {
+    position: fixed;
+    top: 44%;
+    left: 30%;
+    z-index: 200 !important;
+
+  }
+
+
+
+  .circle-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: #ff0000 1px solid;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    z-index: 100 !important;
+  }
+
+}
+
+/////////////////////------------//////////////////////
+
+
+
+@media (min-width: 1440px)and (max-width: 1999.98px) {
+
+
+  .iframeheight {
+    height: 60% !important;
+    width: 64% !important;
+
+  }
+
+  * {
+    font-size: 15px !important;
+    line-height: 150%;
+  }
+
+
+
+
+  .position-1 {
+    position: fixed;
+    top: 16%;
+    right: 35%;
+    z-index: 5 !important;
+  }
+
+  .position-2 {
+    position: fixed;
+    top: 42%;
+    left: 31%;
+    z-index: 200 !important;
+
+  }
+
+  .position-3 {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    z-index: 200 !important;
+
+  }
+
+  .circle-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: #ff0000 1px solid;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    z-index: 100 !important;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1999.98px)and (max-width: 2600px) {
+
+  .iframeheight {
+    height: 1000px !important;
+    width: 85% !important;
+
+  }
+
+  * {
+    font-size: 30px !important;
+    line-height: normal;
+  }
+
+
+
+
+  .position-1 {
+    position: sticky;
+
+    top: 42%;
+    left: 33%;
+    z-index: 5 !important;
+  }
+
+  .position-2 {
+    position: fixed;
+    top: 42%;
+    left: 32%;
+    z-index: 200 !important;
+
+  }
+
+
+
+  .circle-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    z-index: 100 !important;
+  }
+
+
+
+}
