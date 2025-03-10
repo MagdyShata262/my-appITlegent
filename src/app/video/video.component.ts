@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
+import { Component, ElementRef, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { from, mergeMap, tap } from 'rxjs';
+import { from, fromEvent, map, merge, mergeMap, tap } from 'rxjs';
 
 @Component({
   selector: 'app-video',
@@ -13,25 +13,29 @@ import { from, mergeMap, tap } from 'rxjs';
 export class VideoComponent {
 
 
+  
+
+
   @ViewChildren('videoPlayer') videoPlayers!: QueryList<ElementRef>;
 
 
 
-
+  playButton1: boolean = false
 
 
   videoId = 'udMULpKcnn8';
   sanitizedEmbedUrl!: SafeResourceUrl;
 
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer) { }
 
 
 
-
+  today: number = Date.now();
   ngOnInit(): void {
     this.sanitizedEmbedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
       this.getEmbedUrl()
     );
+
   }
 
   getEmbedUrl(): string {
@@ -57,5 +61,31 @@ export class VideoComponent {
       }),
       tap(() => console.log('All iframes processed successfully'))
     ).subscribe();
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
